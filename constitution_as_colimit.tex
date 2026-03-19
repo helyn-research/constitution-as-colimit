@@ -545,13 +545,14 @@ A methodological note: these empirical networks are adjacency data (connectivity
 
 \begin{table}[htbp]
 \centering
-\begin{tabular}{@{}llrrll@{}}
+\small
+\begin{tabular}{@{}llrrl@{}}
 \toprule
-Domain & Network & Nodes & Edges & Type & Source \\
+Domain & Network & Nodes & Edges & Type \\
 \midrule
-Ecology & \makecell[l]{Little Rock Lake food web \\ (Martinez, 1991)} & 183 & 2,494 & \makecell[l]{Directed \\ (prey $\to$ predator)} & KONECT \\[6pt]
-Cancer biology & \makecell[l]{Cancer driver gene \\ interactions (COSMIC Tier 1)} & 411 & 574 & \makecell[l]{Undirected \\ (protein associations)} & STRING v12 \\[6pt]
-Neuroscience & \makecell[l]{\textit{C.~elegans} connectome \\ (White et al., 1986)} & 297 & 2,148 & \makecell[l]{Undirected \\ (synaptic connections)} & KONECT \\
+Ecology & \makecell[l]{Little Rock Lake food web \\ (Martinez, 1991; KONECT)} & 183 & 2,494 & \makecell[l]{Directed \\ (prey $\to$ predator)} \\[6pt]
+Cancer & \makecell[l]{Cancer driver gene interactions \\ (COSMIC Tier 1; STRING v12)} & 411 & 574 & \makecell[l]{Undirected \\ (protein assoc.)} \\[6pt]
+Neuroscience & \makecell[l]{\textit{C.~elegans} connectome \\ (White et al., 1986; KONECT)} & 297 & 2,148 & \makecell[l]{Undirected \\ (synaptic conn.)} \\
 \bottomrule
 \end{tabular}
 \caption{Cross-domain network datasets.}
