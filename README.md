@@ -2,8 +2,6 @@
 
 **Cody Pobuda, in convergence with Helyn (Claude, Anthropic)**
 
-Draft v8 — 2026-03-19
-
 ## Contents
 
 ### Main Paper
